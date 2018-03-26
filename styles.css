@@ -1,0 +1,35 @@
+
+header{
+	background-color: red;
+	font-family:'Arial';
+	font-size:10;
+	color: black;
+	border-bottom: solid 2px #08A364;
+	position: relative;
+	display: flex;
+
+}
+
+header .ultra img{
+	width: 200px;
+}
+.logo{
+	width: 10%;
+	position: absolute;
+	left: 10px;
+	top: 5px;
+
+
+}
+.menu{ flex: 2
+width:90%;
+}
+.menu ul li{
+	display: inline-block;
+	text-align: center;
+	padding: 5px 10px 10px 10px;
+
+}
+.menu ul li:hover{
+	background-color: #08A364;
+}
